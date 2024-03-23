@@ -21,7 +21,7 @@ Node.js is a powerful tool that lets you run JavaScript outside of web browsers,
 4. **Microservices Architecture**: Node.js is well-suited for building microservices, allowing developers to create modular, scalable, and maintainable systems.
 
 ### To see if Node is installed
-windows + R -> CMD 
+Windows + R -> CMD 
 ```
 node -v
 ```
