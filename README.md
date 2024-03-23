@@ -1,4 +1,4 @@
-# BackendWithJavascript
+ii# BackendWithJavascript
 ### What is Node.js?
 Node.js is a powerful tool that lets you run JavaScript outside of web browsers, on your computer or server.
 
@@ -20,12 +20,8 @@ Node.js is a powerful tool that lets you run JavaScript outside of web browsers,
 3. **Real-time Applications**: Node.js excels at building real-time applications like chat applications, online gaming platforms, and collaborative tools.
 4. **Microservices Architecture**: Node.js is well-suited for building microservices, allowing developers to create modular, scalable, and maintainable systems.
 
-### To see if Node is installed
+### To see if Node is installed and fo check the version of you are Node JS
 Windows + R -> CMD 
 ```
-node -v
-```
-### To check the version of you are Node JS
-``` 
 node -v
 ```
