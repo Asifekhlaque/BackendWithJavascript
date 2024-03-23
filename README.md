@@ -25,7 +25,7 @@ Windows + R -> CMD
 ```
 node -v
 ```
-### To check the version of you are Node js
+### To check the version of you are Node JS
 ``` 
 node -v
 ```
