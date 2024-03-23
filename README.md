@@ -19,3 +19,9 @@ Node.js is a powerful tool that lets you run JavaScript outside of web browsers,
 2. **API Development**: It's great for building APIs (Application Programming Interfaces) to handle communication between different software systems.
 3. **Real-time Applications**: Node.js excels at building real-time applications like chat applications, online gaming platforms, and collaborative tools.
 4. **Microservices Architecture**: Node.js is well-suited for building microservices, allowing developers to create modular, scalable, and maintainable systems.
+
+### To see if Node is installed
+windows + R -> CMD 
+```
+node -v
+```
