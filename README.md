@@ -79,4 +79,13 @@ A typical `package.json` file consists of several key fields:
 4. **Contributing Guidelines**: Mention the preferred process for contributing to your project. This might involve forking the repository, installing dependencies, running tests, making changes, and submitting pull requests. You can refer to the `scripts` section for commands related to testing and building.
 
 5. **License Information**: Include details about the project's license, extracted from the `license` field in `package.json`. This informs users about the terms under which they can use, modify, and distribute your project.
+
 ![image](https://github.com/Asifekhlaque/BackendWithJavascript/assets/132199879/743975d3-061a-4f8b-b7af-8ed8cf5000f7)
+### how to import nodemon globally
+```npm
+npm install -g nodemon
+```
+### To verify that nodemon has been installed globally, run the following command:
+```npm
+nodemon -v
+``
