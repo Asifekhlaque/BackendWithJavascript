@@ -88,4 +88,8 @@ npm install -g nodemon
 ### To verify that nodemon has been installed globally, run the following command:
 ```npm
 nodemon -v
-``
+```
+### How to run nodemon with your project
+```
+nodemon projectname.js
+```
