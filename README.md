@@ -27,7 +27,8 @@ Windows + R -> CMD
 ```
 node -v
 ```
-![Uploading image.png…]()
+![image](https://github.com/Asifekhlaque/BackendWithJavascript/assets/132199879/93211896-7325-4d65-bf29-dbe0d0aa3d91)
+
 
 ### What is `package.json`?
 
