@@ -82,11 +82,11 @@ A typical `package.json` file consists of several key fields:
 
 ![image](https://github.com/Asifekhlaque/BackendWithJavascript/assets/132199879/743975d3-061a-4f8b-b7af-8ed8cf5000f7)
 ### how to import nodemon globally
-```npm
+```json
 npm install -g nodemon
 ```
 ### To verify that nodemon has been installed globally, run the following command:
-```npm
+```json
 nodemon -v
 ```
 ### How to run nodemon with your project
@@ -94,7 +94,7 @@ nodemon -v
 nodemon projectname.js
 ```
 ### Basic Node js code for server hosting
-```
+```js
 const { createServer } = require('node:http');
 
 const hostname = '127.0.0.1';
