@@ -68,7 +68,7 @@ A typical `package.json` file consists of several key fields:
 }
 ```
 
-### Utilizing `package.json` in your GitHub README
+### Utilizing `package.json` 
 
 1. **Project Description**: Include a brief overview of your project, which can be extracted from the `description` field in your `package.json`. This provides readers with an immediate understanding of what your project aims to achieve.
 
