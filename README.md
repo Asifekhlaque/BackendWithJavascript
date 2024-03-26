@@ -125,3 +125,124 @@ server.listen(port, hostname, () =>  {
 });
 ```
 ![image](https://github.com/Asifekhlaque/BackendWithJavascript/assets/132199879/ce990750-ef07-4ed8-a37b-5807b41568c3)
+
+# Express.js Fundamentals
+
+This repository covers the fundamentals of Express.js, a popular Node.js framework for building web applications and APIs.
+
+## Table of Contents
+
+1. [Introduction to Express.js](#introduction-to-expressjs)
+2. [Installation](#installation)
+3. [Getting Started](#getting-started)
+4. [Routing](#routing)
+5. [Middleware](#middleware)
+6. [Error Handling](#error-handling)
+7. [Static Files](#static-files)
+8. [Template Engines](#template-engines)
+9. [Database Integration](#database-integration)
+10. [Authentication and Authorization](#authentication-and-authorization)
+11. [Testing](#testing)
+12. [Deployment](#deployment)
+13. [Resources](#resources)
+
+## Introduction to Express.js
+
+Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It facilitates the development of web servers, APIs, and web applications quickly and efficiently.
+
+## Installation
+
+You can install Express.js via npm:
+
+```bash
+npm install express
+```
+
+## Getting Started
+
+To create a basic Express.js server:
+
+```javascript
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+app.listen(port, () => {
+  console.log(`Server is listening at http://localhost:${port}`);
+});
+```
+
+## Routing
+
+Express provides a simple and intuitive way to define routes for handling different HTTP requests.
+
+```javascript
+app.get('/users', (req, res) => {
+  // Handle GET request for /users
+});
+
+app.post('/users', (req, res) => {
+  // Handle POST request for /users
+});
+```
+
+## Middleware
+
+Middleware functions are functions that have access to the request object (`req`), the response object (`res`), and the next middleware function in the application’s request-response cycle.
+
+```javascript
+app.use(express.json()); // Parse incoming request bodies in JSON format
+```
+
+## Error Handling
+
+Express provides error-handling middleware to centralize error handling.
+
+```javascript
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send('Something broke!');
+});
+```
+
+## Static Files
+
+Serve static files such as images, CSS, JavaScript files, etc., using the `express.static` middleware.
+
+```javascript
+app.use(express.static('public'));
+```
+
+## Template Engines
+
+Integrate template engines like EJS, Pug, Handlebars, etc., to generate dynamic HTML content.
+
+```javascript
+app.set('view engine', 'ejs');
+```
+
+## Database Integration
+
+Express.js can be integrated with various databases such as MongoDB, MySQL, PostgreSQL, etc., using appropriate libraries.
+
+## Authentication and Authorization
+
+Implement user authentication and authorization using middleware like Passport.js.
+
+## Testing
+
+Utilize testing frameworks like Mocha, Chai, Supertest, etc., for testing Express applications.
+
+## Deployment
+
+Deploy Express.js applications on platforms like Heroku, AWS, Azure, etc.
+
+## Resources
+
+- [Express.js Documentation](https://expressjs.com/)
+- [Express.js GitHub Repository](https://github.com/expressjs/express)
+- 
