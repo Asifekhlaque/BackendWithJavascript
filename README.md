@@ -172,6 +172,92 @@ https://www.blog.com/articles?year=2024#introduction
 - A **URL** is like a roadmap to a specific place on the internet.
 - Each part of the URL helps guide you to the exact resource you're looking for.
 
+![image](https://github.com/user-attachments/assets/acd98380-560a-4a1d-9846-93719642a690)
+
+
+## 🌐 Understanding HTTP Methods
+
+When you interact with a website or an API, you're using **HTTP methods** to tell the server what you want to do. Think of them as different actions you can take when making a request. Here’s a quick guide to the most common HTTP methods:
+
+### 📥 GET
+- **GET** is used to **retrieve data** from a server. 🌐
+- Example: When you visit a webpage, your browser sends a GET request to get the content.
+
+```bash
+GET /users
+```
+
+- **What it does**: "Give me the list of users."
+
+### 📤 POST
+- **POST** is used to **send data** to the server, usually to create something new. ✉️
+- Example: When you submit a form (like signing up for a newsletter), you're using POST.
+
+```bash
+POST /users
+```
+
+- **What it does**: "Create a new user."
+
+### ✏️ PUT
+- **PUT** is used to **update data** on the server. 📝
+- Example: If you want to change your profile picture, you'd use a PUT request.
+
+```bash
+PUT /users/1
+```
+
+- **What it does**: "Update the user with ID 1."
+
+### ✂️ DELETE
+- **DELETE** is used to **remove data** from the server. ❌
+- Example: When you delete an account, a DELETE request is sent.
+
+```bash
+DELETE /users/1
+```
+
+- **What it does**: "Delete the user with ID 1."
+
+### 🧩 PATCH
+- **PATCH** is used to **partially update data** on the server. 🔧
+- Example: If you just want to change your username but nothing else, PATCH is the way to go.
+
+```bash
+PATCH /users/1
+```
+
+- **What it does**: "Update the username of user 1."
+
+### 🛠️ OPTIONS
+- **OPTIONS** is used to **find out what methods** are allowed on a server. 🛡️
+- Example: Before making a request, a client might ask, "What can I do here?"
+
+```bash
+OPTIONS /users
+```
+
+- **What it does**: "Tell me what methods I can use on /users."
+
+### 🚫 HEAD
+- **HEAD** is like **GET**, but it only retrieves the headers (metadata) and not the actual data. 🧠
+- Example: It’s useful to check if a resource exists without downloading it.
+
+```bash
+HEAD /users
+```
+
+- **What it does**: "Give me the headers for /users, but not the content."
+
+### 🔒 Summary
+- **GET**: Retrieve data 🌐
+- **POST**: Send data to create something ✉️
+- **PUT**: Update existing data 📝
+- **DELETE**: Remove data ❌
+- **PATCH**: Partially update data 🔧
+- **OPTIONS**: Discover what’s possible 🛠️
+- **HEAD**: Check headers only 🧠
+
 ![image](https://github.com/Asifekhlaque/BackendWithJavascript/assets/132199879/743975d3-061a-4f8b-b7af-8ed8cf5000f7)
 ### how to import nodemon globally
 ```
